@@ -1,6 +1,7 @@
 def check_vowels():
     # Código a implementar utilizando input.
     name= input('Dame un nombre:')
+    name=name.lower()
     print(f'Contiene a: {'a' in name}')
     print(f'Contiene e: {'e' in name}')
     print(f'Contiene i: {'i' in name}')
