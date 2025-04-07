@@ -1,6 +1,5 @@
 def slice_simple():
     texto = "Awesome"
-    texto= input('Dime una palabra: ')
     texto= texto.lower()
     print(texto[:3])
     print(texto[3:6])
